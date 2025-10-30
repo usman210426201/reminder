@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 214, 216 );
+    min-width: 400px;
+
+}
+header h2{
+    margin: 10px;
+    font-size: 2rem;
+
+}
+.todolist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task{
+    font-size: 2rem;
+    padding: 8px;
+    margin: 10px;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+.primarybtn{
+    margin: 5px;
+
+    height: 55px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    
+    background-color:rgb(152, 214, 216 ); 
+    border-radius: 10px;
+}
+.primarybtn:hover{
+    box-shadow:rgb(152, 214, 216 )  7px 4px 4px;
+    color: white;
+    background-color: black;
+}
+thead tr th{
+   border: 3px solid black; 
+   padding: 4px;
+   width: 400px;
+   background-color: rgb(152, 214, 216 );
+
+   font-size: 2rem;
+  
+}
+table{
+    
+    margin: 10px auto; 
+    border-collapse: collapse; 
+    width: 90%; 
+}
+.tablearea h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.taskdescription{
+    margin: 3px;
+    padding: 3px;
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+
+}
+.startbtn{
+    margin: 5px;
+
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    
+    background-color:rgb(223, 153, 67); 
+    border-radius: 10px;
+
+}
+.startbtn:hover{
+    box-shadow:coral  7px 4px 4px;
+    color: white;
+    background-color: black;
+}
+#finishbtn{
+    background-color:coral;
+}
+#finishbtn:hover{
+    box-shadow:rgb(49, 179, 49)  7px 4px 4px;
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=note_add"
+    />
+
+    <link href="custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h2>Your Reminder App</h2>
+    </header>
+    <div class="todolist" id="todolistid">
+      <input
+        type="text"
+        id="taskid"
+        class="task"
+        required
+        placeholder="Enter your task...."
+      />
+      <button class="primarybtn" id="savebtn">
+        <span class="material-symbols-outlined"> note_add </span>Save
+      </button>
+    </div>
+    <div class="tablearea" id="tableid">
+      <h2>Saved Tasks</h2>
+      <table>
+        <thead>
+         <tr>
+          <th>Tasks</th>
+          <th>Pendings</th>
+          <th>Completed</th>
+          
+        </tr>
+        </thead>
+        <tbody id="taskdata">
+          <!-- dat will wil fetch here -->
+        </tbody>
+
+      </table>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
