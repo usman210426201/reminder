@@ -1,4 +1,4 @@
-const API = "http://127.0.0.1:8000";
+const API = "https://reminderappbackend-3.onrender.com";
 
 // ✅ Add new task
 document.getElementById("savebtn").addEventListener("click", async () => {
